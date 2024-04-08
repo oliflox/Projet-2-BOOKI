@@ -47,8 +47,7 @@ p {
 }
 
 body {
-  margin: 0 50px;
-  height: 150vh;
+  margin: 0 230px;
 }
 
 header {
@@ -220,7 +219,7 @@ header {
         }
       }
     }
-    #card--herbergement__more-button{
+    #card--herbergement__more-button {
       margin-top: 30px;
     }
   }
@@ -261,4 +260,29 @@ header {
 
 .inactive-star {
   color: #d9d9d9;
+}
+
+#Activity {
+  margin: 30px 0;
+  padding: 30px;
+  #Activity--list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 30px;
+    .Activity--list__card {
+      background-color: white;
+      box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
+      border-radius: 20px;
+      img {
+        height: 380px;
+        width: 300px;
+        object-fit: cover;
+        border-radius: 20px 20px 0 0;
+      }
+      .Activity--list__card-info {
+        padding: 15px;
+      }
+    }
+  }
 }
