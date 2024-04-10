@@ -210,10 +210,6 @@ header {
         width: 31%;
         background: white;
         border-radius: 20px;
-        &:hover {
-          transform: scale(1.05);
-          transition: 0.3s;
-        }
         img {
           height: 125px;
           width: 100%;
@@ -241,15 +237,12 @@ header {
       justify-content: space-between;
       gap: 30px;
       margin-top: 30px;
+      
       .card--populaire-list__card {
         cursor: pointer;
         display: flex;
         background: white;
         border-radius: 20px;
-        &:hover {
-          transform: scale(1.05);
-          transition: 0.3s;
-        }
         img {
           height: 145px;
           width: 125px;
@@ -291,10 +284,6 @@ header {
       background-color: white;
       box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
       border-radius: 20px;
-      &:hover {
-        transform: scale(1.05);
-        transition: 0.3s;
-      }
       img {
         height: 380px;
         width: 300px;
@@ -314,8 +303,19 @@ footer {
   background: #f2f2f2;
   padding: 20px;
   div {
+    width: 33%;
     display: flex;
     gap: 20px;
     flex-direction: column;
+  }
+}
+
+#card--populaire-title{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  i{
+    font-size: 20px;
+    color: #0065fc;
   }
 }
