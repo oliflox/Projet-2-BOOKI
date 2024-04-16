@@ -1,285 +1,249 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../css/style.css" />
-    <script
-      src="https://kit.fontawesome.com/fc4d6d5887.js"
-      crossorigin="anonymous"
-    ></script>
-    <title>Projet N°2</title>
-  </head>
-  <body>
-    <header>
-      <img src="../img/logo/Booki.png" alt="Logo Booki" />
-      <nav>
-        <ul>
-          <li><a href="#">Hébergements</a></li>
-          <li><a href="#">Activités</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <article id="Search">
-        <h2>Trouvez votre Hébergements pour des vacances de rêves</h2>
-        <p>En plein centre-ville ou pleine nature</p>
-        <div id="SearchBar">
-          <i class="fa-solid fa-location-dot"></i>
-          <input type="text" placeholder="Rechercher" />
-          <input
-            type="submit"
-            name="Rechercher"
-            value="Rechercher"
-            id="SearchBar__button"
-          />
-        </div>
-        <div id="Filtres">
-          <h2>Filtres</h2>
-          <button class="filter-button filter-button--state-active">
-            <i class="fa-solid fa-money-bill-wave"></i>Économique
-          </button>
-          <button class="filter-button">
-            <i class="fa-solid fa-person"></i>Familial
-          </button>
-          <button class="filter-button">
-            <i class="fa-solid fa-heart"></i>Romantique
-          </button>
-          <button class="filter-button">
-            <i class="fa-solid fa-fire"></i>Nos pépites
-          </button>
-        </div>
-        <div id="SearchBar__Result">
-          <i class="fa-solid fa-info"></i>
-          <p>Plus de 500 logements sont disponibles dans cette ville</p>
-        </div>
-      </article>
-      <article id="card">
-        <section id="card--herbergement">
-          <h2>Hébergements à Marseille</h2>
-          <div id="card--herbergement-list">
-            <div class="card--herbergement-list__card">
-              <img
-                src="../img/hebergements/annie-spratt.jpg"
-                alt="Card Image"
-              />
-              <div class="card--herbergement-list__card-info">
-                <h3>Hôtel de la mer</h3>
-                <p>Nuit à partir de 46€</p>
-                <div class="card--herbergement-list__card-star">
-                  <i class="fa-solid fa-star active-star"></i>
-                  <i class="fa-solid fa-star active-star"></i>
-                  <i class="fa-solid fa-star active-star"></i>
-                  <i class="fa-solid fa-star active-star"></i>
-                  <i class="fa-solid fa-star inactive-star"></i>
-                </div>
-              </div>
-            </div>
-            <div class="card--herbergement-list__card">
-              <img
-                src="../img/hebergements/annie-spratt.jpg"
-                alt="Card Image"
-              />
-              <div class="card--herbergement-list__card-info">
-                <h3>Hôtel de la mer</h3>
-                <p>Nuit à partir de 46€</p>
-                <div class="card--herbergement-list__card-star">
-                  <i class="fa-solid fa-star active-star"></i>
-                  <i class="fa-solid fa-star active-star"></i>
-                  <i class="fa-solid fa-star active-star"></i>
-                  <i class="fa-solid fa-star active-star"></i>
-                  <i class="fa-solid fa-star inactive-star"></i>
-                </div>
-              </div>
-            </div>
-            <div class="card--herbergement-list__card">
-              <img
-                src="../img/hebergements/annie-spratt.jpg"
-                alt="Card Image"
-              />
-              <div class="card--herbergement-list__card-info">
-                <h3>Hôtel de la mer</h3>
-                <p>Nuit à partir de 46€</p>
-                <div class="card--herbergement-list__card-star">
-                  <i class="fa-solid fa-star active-star"></i>
-                  <i class="fa-solid fa-star active-star"></i>
-                  <i class="fa-solid fa-star active-star"></i>
-                  <i class="fa-solid fa-star active-star"></i>
-                  <i class="fa-solid fa-star inactive-star"></i>
-                </div>
-              </div>
-            </div>
-            <div class="card--herbergement-list__card">
-              <img
-                src="../img/hebergements/annie-spratt.jpg"
-                alt="Card Image"
-              />
-              <div class="card--herbergement-list__card-info">
-                <h3>Hôtel de la mer</h3>
-                <p>Nuit à partir de 46€</p>
-                <div class="card--herbergement-list__card-star">
-                  <i class="fa-solid fa-star active-star"></i>
-                  <i class="fa-solid fa-star active-star"></i>
-                  <i class="fa-solid fa-star active-star"></i>
-                  <i class="fa-solid fa-star active-star"></i>
-                  <i class="fa-solid fa-star inactive-star"></i>
-                </div>
-              </div>
-            </div>
-            <div class="card--herbergement-list__card">
-              <img
-                src="../img/hebergements/annie-spratt.jpg"
-                alt="Card Image"
-              />
-              <div class="card--herbergement-list__card-info">
-                <h3>Hôtel de la mer</h3>
-                <p>Nuit à partir de 46€</p>
-                <div class="card--herbergement-list__card-star">
-                  <i class="fa-solid fa-star active-star"></i>
-                  <i class="fa-solid fa-star active-star"></i>
-                  <i class="fa-solid fa-star active-star"></i>
-                  <i class="fa-solid fa-star active-star"></i>
-                  <i class="fa-solid fa-star inactive-star"></i>
-                </div>
-              </div>
-            </div>
-            <div class="card--herbergement-list__card">
-              <img
-                src="../img/hebergements/annie-spratt.jpg"
-                alt="Card Image"
-              />
-              <div class="card--herbergement-list__card-info">
-                <h3>Hôtel de la mer</h3>
-                <p>Nuit à partir de 46€</p>
-                <div class="card--herbergement-list__card-star">
-                  <i class="fa-solid fa-star active-star"></i>
-                  <i class="fa-solid fa-star active-star"></i>
-                  <i class="fa-solid fa-star active-star"></i>
-                  <i class="fa-solid fa-star active-star"></i>
-                  <i class="fa-solid fa-star inactive-star"></i>
-                </div>
+<html lang="fr">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/style.css" />
+  <script src="https://kit.fontawesome.com/fc4d6d5887.js" crossorigin="anonymous"></script>
+  <title>Projet N°2</title>
+</head>
+
+<body>
+  <header class="header">
+    <img class="header__logo" src="../img/logo/Booki.png" alt="Logo Booki" />
+    <nav class="header__nav">
+      <a class="header__nav__link" href="#">Hébergements</a>
+      <a class="header__nav__link" href="#">Activités</a>
+    </nav>
+  </header>
+  <main class="main">
+    <section class="main__header">
+      <h2 class="main__header__title">Trouvez votre Hébergements pour des vacances de rêves</h2>
+      <p class="main__header__subtitle">En plein centre-ville ou pleine nature</p>
+      <div class="main__header__search">
+        <i class="fa-solid fa-location-dot main__header__search__icon"></i>
+        <input class="main__header__search__input" type="text" placeholder="Rechercher" />
+        <input class="main__header__search__button" type="submit" name="Rechercher" value="Rechercher" />
+      </div>
+      <div class="main__filter">
+        <h2 class="main__filter__title">Filtres</h2>
+        <button class="main__filter__button">
+          <i class="fa-solid fa-money-bill-wave main__filter__button__icon"></i>Économique
+        </button>
+        <button class="main__filter__button">
+          <i class="fa-solid fa-person main__filter__button__icon"></i>Familial
+        </button>
+        <button class="main__filter__button">
+          <i class="fa-solid fa-heart main__filter__button__icon"></i>Romantique
+        </button>
+        <button class="main__filter__button">
+          <i class="fa-solid fa-fire main__filter__button__icon"></i>Nos pépites
+        </button>
+      </div>
+      <div class="main__filter__information">
+        <i class="fa-solid fa-info main__filter__information__icon"></i>
+        <p class="main__filter__information__text">Plus de 500 logements sont disponibles dans cette ville</p>
+      </div>
+    </section>
+    <section class="main__grid">
+      <div class="main__grid__herbergements">
+        <h2 class="main__grid__herbergements__title">Hébergements à Marseille</h2>
+        <article class="main__grid__herbergements__list">
+          <div class="main__grid__herbergements__list__card">
+            <img class="main__grid__herbergements__list__card__image" src="../img/hebergements/annie-spratt.jpg" alt="Card Image" />
+            <div class="main__grid__herbergements__list__card__info">
+              <h3 class="main__grid__herbergements__list__card__info__title">Hôtel de la mer</h3>
+              <p class="main__grid__herbergements__list__card__info__description">Nuit à partir de 46€</p>
+              <div class="main__grid__herbergements__list__card__stars">
+                <i class="fa-solid fa-star main__grid__herbergements__list__card__stars__active"></i>
+                <i class="fa-solid fa-star main__grid__herbergements__list__card__stars__active"></i>
+                <i class="fa-solid fa-star main__grid__herbergements__list__card__stars__active"></i>
+                <i class="fa-solid fa-star main__grid__herbergements__list__card__stars__inactive"></i>
               </div>
             </div>
           </div>
-          <a href="#"><h2 id="card--herbergement__more-button">Afficher plus</h2></a>
-        </section>
-        <section id="card--populaire">
-          <div id="card--populaire-title">
-            <h2>Les plus populaires</h2>
-            <i class="fa-solid fa-chart-line"></i>
-          </div>
-          <div id="card--populaire-list">
-            <div class="card--populaire-list__card">
-              <img
-                src="../img/hebergements/annie-spratt.jpg"
-                alt="Card Image"
-              />
-              <div class="card--populaire-list__card-info">
-                <div>
-                  <h3>Hôtel de la mer</h3>
-                  <p>Nuit à partir de 46€</p>
-                </div>
-                <div class="card--populaire-list__card-star">
-                  <i class="fa-solid fa-star active-star"></i>
-                  <i class="fa-solid fa-star active-star"></i>
-                  <i class="fa-solid fa-star active-star"></i>
-                  <i class="fa-solid fa-star active-star"></i>
-                  <i class="fa-solid fa-star inactive-star"></i>
-                </div>
-              </div>
-            </div>
-            <div class="card--populaire-list__card">
-              <img
-                src="../img/hebergements/annie-spratt.jpg"
-                alt="Card Image"
-              />
-              <div class="card--populaire-list__card-info">
-                <div>
-                  <h3>Hôtel de la mer</h3>
-                  <p>Nuit à partir de 46€</p>
-                </div>
-                <div class="card--populaire-list__card-star">
-                  <i class="fa-solid fa-star active-star"></i>
-                  <i class="fa-solid fa-star active-star"></i>
-                  <i class="fa-solid fa-star active-star"></i>
-                  <i class="fa-solid fa-star active-star"></i>
-                  <i class="fa-solid fa-star inactive-star"></i>
-                </div>
-              </div>
-            </div>
-            <div class="card--populaire-list__card">
-              <img
-                src="../img/hebergements/annie-spratt.jpg"
-                alt="Card Image"
-              />
-              <div class="card--populaire-list__card-info">
-                <h3>Hôtel de la mer</h3>
-                <p>Nuit à partir de 46€</p>
-                <div class="card--populaire-list__card-star">
-                  <i class="fa-solid fa-star active-star"></i>
-                  <i class="fa-solid fa-star active-star"></i>
-                  <i class="fa-solid fa-star active-star"></i>
-                  <i class="fa-solid fa-star active-star"></i>
-                  <i class="fa-solid fa-star inactive-star"></i>
-                </div>
+          <div class="main__grid__herbergements__list__card">
+            <img class="main__grid__herbergements__list__card__image" src="../img/hebergements/annie-spratt.jpg"
+              alt="Card Image" />
+            <div class="main__grid__herbergements__list__card__info">
+              <h3 class="main__grid__herbergements__list__card__info__title">Hôtel de la mer</h3>
+              <p class="main__grid__herbergements__list__card__info__description">Nuit à partir de 46€</p>
+              <div class="main__grid__herbergements__list__card__stars">
+                <i class="fa-solid fa-star main__grid__herbergements__list__card__stars__active"></i>
+                <i class="fa-solid fa-star main__grid__herbergements__list__card__stars__active"></i>
+                <i class="fa-solid fa-star main__grid__herbergements__list__card__stars__active"></i>
+                <i class="fa-solid fa-star main__grid__herbergements__list__card__stars__active"></i>
+                <i class="fa-solid fa-star main__grid__herbergements__list__card__stars__inactive"></i>
               </div>
             </div>
           </div>
-        </section>
-      </article>
-      <article id="Activity">
-        <h2>Activités à Marseille</h2>
-        <div id="Activity--list">
-          <div class="Activity--list__card">
-            <img src="../img/activites/florian-wehde.jpg" alt="Card Image" />
-            <div class="Activity--list__card-info">
-              <h3>Vieux-Port</h3>
+          <div class="main__grid__herbergements__list__card">
+            <img class="main__grid__herbergements__list__card__image" src="../img/hebergements/annie-spratt.jpg"
+              alt="Card Image" />
+            <div class="main__grid__herbergements__list__card__info">
+              <h3 class="main__grid__herbergements__list__card__info__title">Hôtel de la mer</h3>
+              <p class="main__grid__herbergements__list__card__info__description">Nuit à partir de 46€</p>
+              <div class="main__grid__herbergements__list__card__stars">
+                <i class="fa-solid fa-star main__grid__herbergements__list__card__stars__active"></i>
+                <i class="fa-solid fa-star main__grid__herbergements__list__card__stars__active"></i>
+                <i class="fa-solid fa-star main__grid__herbergements__list__card__stars__active"></i>
+                <i class="fa-solid fa-star main__grid__herbergements__list__card__stars__active"></i>
+                <i class="fa-solid fa-star main__grid__herbergements__list__card__stars__inactive"></i>
+              </div>
             </div>
           </div>
-          <div class="Activity--list__card">
-            <img src="../img/activites/florian-wehde.jpg" alt="Card Image" />
-            <div class="Activity--list__card-info">
-              <h3>Vieux-Port</h3>
+          <div class="main__grid__herbergements__list__card">
+            <img class="main__grid__herbergements__list__card__image" src="../img/hebergements/annie-spratt.jpg"
+              alt="Card Image" />
+            <div class="main__grid__herbergements__list__card__info">
+              <h3 class="main__grid__herbergements__list__card__info__title">Hôtel de la mer</h3>
+              <p class="main__grid__herbergements__list__card__info__description">Nuit à partir de 46€</p>
+              <div class="main__grid__herbergements__list__card__stars">
+                <i class="fa-solid fa-star main__grid__herbergements__list__card__stars__active"></i>
+                <i class="fa-solid fa-star main__grid__herbergements__list__card__stars__active"></i>
+                <i class="fa-solid fa-star main__grid__herbergements__list__card__stars__active"></i>
+                <i class="fa-solid fa-star main__grid__herbergements__list__card__stars__active"></i>
+                <i class="fa-solid fa-star main__grid__herbergements__list__card__stars__inactive"></i>
+              </div>
             </div>
           </div>
-          <div class="Activity--list__card">
-            <img src="../img/activites/florian-wehde.jpg" alt="Card Image" />
-            <div class="Activity--list__card-info">
-              <h3>Vieux-Port</h3>
+          <div class="main__grid__herbergements__list__card">
+            <img class="main__grid__herbergements__list__card__image" src="../img/hebergements/annie-spratt.jpg"
+              alt="Card Image" />
+            <div class="main__grid__herbergements__list__card__info">
+              <h3 class="main__grid__herbergements__list__card__info__title">Hôtel de la mer</h3>
+              <p class="main__grid__herbergements__list__card__info__description">Nuit à partir de 46€</p>
+              <div class="main__grid__herbergements__list__card__stars">
+                <i class="fa-solid fa-star main__grid__herbergements__list__card__stars__active"></i>
+                <i class="fa-solid fa-star main__grid__herbergements__list__card__stars__active"></i>
+                <i class="fa-solid fa-star main__grid__herbergements__list__card__stars__active"></i>
+                <i class="fa-solid fa-star main__grid__herbergements__list__card__stars__active"></i>
+                <i class="fa-solid fa-star main__grid__herbergements__list__card__stars__inactive"></i>
+              </div>
             </div>
           </div>
-          <div class="Activity--list__card">
-            <img src="../img/activites/florian-wehde.jpg" alt="Card Image" />
-            <div class="Activity--list__card-info">
-              <h3>Vieux-Port</h3>
+          <div class="main__grid__herbergements__list__card">
+            <img class="main__grid__herbergements__list__card__image" src="../img/hebergements/annie-spratt.jpg"
+              alt="Card Image" />
+            <div class="main__grid__herbergements__list__card__info">
+              <h3 class="main__grid__herbergements__list__card__info__title">Hôtel de la mer</h3>
+              <p class="main__grid__herbergements__list__card__info__description">Nuit à partir de 46€</p>
+              <div class="main__grid__herbergements__list__card__stars">
+                <i class="fa-solid fa-star main__grid__herbergements__list__card__stars__active"></i>
+                <i class="fa-solid fa-star main__grid__herbergements__list__card__stars__active"></i>
+                <i class="fa-solid fa-star main__grid__herbergements__list__card__stars__active"></i>
+                <i class="fa-solid fa-star main__grid__herbergements__list__card__stars__active"></i>
+                <i class="fa-solid fa-star main__grid__herbergements__list__card__stars__inactive"></i>
+              </div>
             </div>
           </div>
+        </article>
+        <a href="#">
+          <h2 class="main__grid__herbergements__list__see-more">Afficher plus</h2>
+        </a>
+      </div>
+      <div class="main__grid__populaire">
+        <div class="main__grid__populaire__header">
+          <h2 class="main__grid__populaire__header__title">Les plus populaires</h2>
+          <i class="fa-solid fa-chart-line main__grid__populaire__header__icon"></i>
         </div>
-      </article>
-      <footer>
-        <div id="a-propos">
-          <h3>A propos</h3>
-          <h4>Fonctionnement du site</h4>
-          <h4>Conditions générales</h4>
-          <h4>Données et confidentialité</h4>
+        <div class="main__grid__populaire__list">
+          <article class="main__grid__populaire__list__card">
+            <img class="main__grid__populaire__list__card__image" src="../img/hebergements/emile-guillemot.jpg"
+              alt="Card Image" />
+            <div class="main__grid__populaire__list__card__header">
+              <span class="main__grid__populaire__list__card__header__info">
+                <h3 class="main__grid__populaire__list__card__header__info__title">Hôtel de la mer</h3>
+                <p class="main__grid__populaire__list__card__header__info__subtitle">Nuit à partir de 46€</p>
+              </span>
+              <div class="main__grid__populaire__list__card__stars">
+                <i class="fa-solid fa-star main__grid__populaire__list__card__stars__active"></i>
+                <i class="fa-solid fa-star main__grid__populaire__list__card__stars__active"></i>
+                <i class="fa-solid fa-star main__grid__populaire__list__card__stars__active"></i>
+                <i class="fa-solid fa-star main__grid__populaire__list__card__stars__active"></i>
+                <i class="fa-solid fa-star main__grid__populaire__list__card__stars__inactive"></i>
+              </div>
+            </div>
+          </article>
+          <article class="main__grid__populaire__list__card">
+            <img class="main__grid__populaire__list__card__image" src="../img/hebergements/emile-guillemot.jpg"
+              alt="Card Image" />
+            <div class="main__grid__populaire__list__card__header">
+              <span class="main__grid__populaire__list__card__header__info">
+                <h3 class="main__grid__populaire__list__card__header__info__title">Hôtel de la mer</h3>
+                <p class="main__grid__populaire__list__card__header__info__subtitle">Nuit à partir de 46€</p>
+              </span>
+              <div class="main__grid__populaire__list__card__stars">
+                <i class="fa-solid fa-star main__grid__populaire__list__card__stars__active"></i>
+                <i class="fa-solid fa-star main__grid__populaire__list__card__stars__active"></i>
+                <i class="fa-solid fa-star main__grid__populaire__list__card__stars__active"></i>
+                <i class="fa-solid fa-star main__grid__populaire__list__card__stars__active"></i>
+                <i class="fa-solid fa-star main__grid__populaire__list__card__stars__inactive"></i>
+              </div>
+            </div>
+          </article>
+          <article class="main__grid__populaire__list__card">
+            <img class="main__grid__populaire__list__card__image" src="../img/hebergements/emile-guillemot.jpg"
+              alt="Card Image" />
+            <div class="main__grid__populaire__list__card__header">
+              <span class="main__grid__populaire__list__card__header__info">
+                <h3 class="main__grid__populaire__list__card__header__info__title">Hôtel de la mer</h3>
+                <p class="main__grid__populaire__list__card__header__info__subtitle">Nuit à partir de 46€</p>
+              </span>
+              <div class="main__grid__populaire__list__card__stars">
+                <i class="fa-solid fa-star main__grid__populaire__list__card__stars__active"></i>
+                <i class="fa-solid fa-star main__grid__populaire__list__card__stars__active"></i>
+                <i class="fa-solid fa-star main__grid__populaire__list__card__stars__active"></i>
+                <i class="fa-solid fa-star main__grid__populaire__list__card__stars__active"></i>
+                <i class="fa-solid fa-star main__grid__populaire__list__card__stars__inactive"></i>
+              </div>
+            </div>
+          </article>
         </div>
-        <div id="hebergements">
-          <h3>Nos hébergements</h3>
-          <h4>Charte qualité</h4>
-          <h4>Proposer votre hôtel</h4>
-        </div>
-        <div id="Assistance">
-          <h3>Assistance</h3>
-          <h4>Centre d'aide</h4>
-          <h4>Nous contacter</h4>
-        </div>
-      </footer>
-    </main>
-  </body>
+      </div>
+    </section>
+    <section class="main__activity">
+      <h2 class="main__activity__title">Activités à Marseille</h2>
+      <div class="main__activity__card">
+        <img class="main__activity__card__image" src="../img/activites/florian-wehde.jpg" alt="Card Image" />
+        <h3 class="main__activity__card__title">Vieux-Port</h3>
+      </div>
+      <div class="main__activity__card">
+        <img class="main__activity__card__image" src="../img/activites/florian-wehde.jpg" alt="Card Image" />
+        <h3 class="main__activity__card__title">Vieux-Port</h3>
+      </div>
+      <div class="main__activity__card">
+        <img class="main__activity__card__image" src="../img/activites/florian-wehde.jpg" alt="Card Image" />
+        <h3 class="main__activity__card__title">Vieux-Port</h3>
+      </div>
+      <div class="main__activity__card">
+        <img class="main__activity__card__image" src="../img/activites/florian-wehde.jpg" alt="Card Image" />
+        <h3 class="main__activity__card__title">Vieux-Port</h3>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__a-propos">
+      <h3 class="footer__a-propos__title">A propos</h3>
+      <h4 class="footer__a-propos__subtitle">Fonctionnement du site</h4>
+      <h4 class="footer__a-propos__subtitle">Conditions générales</h4>
+      <h4 class="footer__a-propos__subtitle">Données et confidentialité</h4>
+    </div>
+    <div class="footer__hebergements">
+      <h3 class="footer__hebergements__title">Nos hébergements</h3>
+      <h4 class="footer__hebergements__subtitle">Charte qualité</h4>
+      <h4 class="footer__hebergements__subtitle">Proposer votre hôtel</h4>
+    </div>
+    <div class="footer__Assistance">
+      <h3 class="footer__Assistance__title">Assistance</h3>
+      <h4 class="footer__Assistance__subtitle">Centre d'aide</h4>
+      <h4 class="footer__Assistance__subtitle">Nous contacter</h4>
+    </div>
+  </footer>
+</body>
+
 </html>
