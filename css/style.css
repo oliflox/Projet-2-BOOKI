@@ -213,17 +213,18 @@ body {
 
 .main__grid__herbergements__list {
   margin-top: var(--spacing-xxl);
-  display: flex;
-  justify-content: space-between;
-  gap: var(--spacing-xxl);
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+
 }
 
 .main__grid__herbergements__list__card {
   cursor: pointer;
   display: flex;
   flex-direction: column;
-  width: calc(30% - var(--spacing-md));
   background: white;
   border-radius: var(--spacing-xl);
 }
@@ -379,12 +380,70 @@ body {
   flex-direction: column;
 }
 
-.footer__hebergements__title, .footer__a-propos__title, .footer__assistance__title{
+.footer__hebergements__title,
+.footer__a-propos__title,
+.footer__assistance__title {
   font-size: var(--spacing-lg);
   font-weight: 700;
 }
 
-.footer__hebergements__subtitle, .footer__a-propos__subtitle, .footer__assistance__subtitle{
+.footer__hebergements__subtitle,
+.footer__a-propos__subtitle,
+.footer__assistance__subtitle {
   font-size: var(--spacing-md);
   font-weight: 400;
+}
+
+/* ------------- desktop --------------- */
+
+@media only screen and (max-width: 1440px) {
+
+  body {
+    margin: 0 50px;
+  }
+}
+
+/* ------------- tablet --------------- */
+
+@media only screen and (max-width: 1024px) {
+
+  body {
+    margin: 0 50px;
+  }
+
+  .main__grid__herbergements__list__card {
+    width: calc(30% - var(--spacing-md));
+  }
+
+  .main__grid__populaire__list__card {
+    flex-direction: row;
+  }
+
+  .main__grid__populaire__list__card__image {
+    height: 125px;
+    width: 100px;
+  }
+
+  .main__grid__populaire__list__card__header {
+    padding: var(--spacing-sm);
+  }
+
+  .main__grid__populaire__list__card__header__info__title {
+    font-size: var(--spacing-sm);
+  }
+
+  .main__grid__populaire__list__card__header__info__subtitle {
+    font-size: var(--spacing-xs);
+  }
+
+  .main__activity__list__card__image {
+    height: 300px;
+    width: 250px;
+  }
+
+  .footer__a-propos,
+  .footer__hebergements,
+  .footer__assistance {
+    width: calc(50% - var(--spacing-xxxl));
+  }
 }
