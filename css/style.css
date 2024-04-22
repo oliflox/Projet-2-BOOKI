@@ -24,7 +24,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
+  scroll-behavior: smooth;
 }
 
 a {
@@ -36,9 +36,8 @@ body {
   margin: 0 50px;
   font-family: "Raleway", sans-serif;
   font-size: 16px;
+  
 }
-
-/* ------------- header --------------- */
 
 .header {
   display: flex;
@@ -65,6 +64,7 @@ body {
 
 .header__nav__link:hover {
   border-top: 2px solid var(--blue);
+  color: var(--blue);
   transition: 0.3s;
   cursor: pointer;
 }
@@ -73,9 +73,6 @@ body {
 .main__header {
   margin: var(--spacing-xxl) 0;
 }
-
-/* ------------- Search --------------- */
-
 
 .main__header__search {
   margin: var(--spacing-xxl) 0;
@@ -125,8 +122,6 @@ body {
   background-color: var(--blue);
   transition: 0.3s;
 }
-
-/* ------------- Filter --------------- */
 
 .main__filter {
   display: flex;
@@ -204,8 +199,6 @@ body {
   padding: var(--spacing-xxl);
 }
 
-/* ------------- hébergements --------------- */
-
 .main__grid__herbergements {
   width: calc((2/3)*100%);
 }
@@ -262,8 +255,6 @@ body {
   font-size: var(--font-subtitle);
   font-weight: 700;
 }
-
-/* ------------- Populaire --------------- */
 
 .main__grid__populaire {
   width: calc(100%/3);
@@ -334,8 +325,6 @@ body {
   color: var(--grey);
 }
 
-/* ------------- Activity --------------- */
-
 .main__activity {
   margin: var(--spacing-xxl) 0;
   padding: var(--spacing-xxl);
@@ -373,8 +362,6 @@ body {
   font-weight: 700;
 }
 
-/* ------------- Footer --------------- */
-
 .footer {
   display: flex;
   justify-content: space-between;
@@ -404,8 +391,6 @@ body {
   font-size: var(--font-md);
   font-weight: 400;
 }
-
-/* ------------- tablet --------------- */
 
 @media only screen and (max-width: 1024px) {
 
@@ -441,14 +426,7 @@ body {
     height: 200px;
     width: 100%;
   }
-
-  .main__grid__herbergements__list__see-more {
-    font-size: var(--spacing-md);
-  }
-  
 }
-
-/* ------------- mobile --------------- */
 
 @media only screen and (max-width: 768px) {
 
