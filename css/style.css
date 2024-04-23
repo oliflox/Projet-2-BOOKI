@@ -48,7 +48,6 @@ body {
 .header__logo {
   padding: var(--spacing-xxl) 0;
   width: 5rem;
-  height: fit-content;
 }
 
 .header__nav {
@@ -71,7 +70,7 @@ body {
 .header__nav__link:hover {
   border-top: 2px solid var(--blue);
   color: var(--blue);
-  transition: 0.3s;
+  transition-duration: 0.3s;
   cursor: pointer;
 }
 
@@ -84,7 +83,6 @@ body {
   margin: var(--spacing-xxl) 0;
   display: flex;
   align-items: stretch;
-  width: fit-content;
 }
 
 .main__header__title {
@@ -130,7 +128,7 @@ body {
 
 .main__header__search__button:hover {
   background-color: #0258e2;
-  transition: 0.3s;
+  transition-duration: 0.3s;
 }
 
 .main__header__search__button__text {
@@ -167,7 +165,7 @@ body {
 
 .main__filter__button:hover {
   background-color: #0065fc31;
-  transition: 0.3s;
+  transition-duration: 0.3s;
 }
 
 .main__filter__button__icon {
@@ -231,8 +229,8 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  grid-column-gap: 30px;
-  grid-row-gap: 30px;
+  grid-column-gap: var(--spacing-xxl);
+  grid-row-gap: var(--spacing-xxl);
 
 }
 
@@ -494,7 +492,7 @@ body {
   }
 
   .main__header {
-    margin: var(--spacing-xxl) 20px;
+    margin: var(--spacing-xxl) var(--spacing-lg);
   }
 
   .main__header__search__input[type="text"] {
@@ -598,13 +596,13 @@ body {
   }
 
   .main__activity__list__card__image {
-    height: 141px;
+    height: 140px;
   }
 
   .footer {
     flex-direction: column;
     padding: var(--spacing-xxl);
-    gap: 3rem;
+    gap: var(--spacing-xxxxl);
   }
 
   .footer__a-propos,
