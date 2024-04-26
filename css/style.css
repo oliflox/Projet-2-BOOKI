@@ -1,3 +1,5 @@
+@import url("normalize.css");
+
 :root {
   --blue: #0065FC;
   --lightblue: #DEEBFF;
@@ -19,18 +21,6 @@
   --font-md: 16px;
   --font-sm: 14px;
   --font-xs: 12px;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-}
-
-a {
-  text-decoration: none;
-  color: black;
 }
 
 body {
