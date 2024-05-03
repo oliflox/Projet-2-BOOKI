@@ -526,15 +526,13 @@ body {
 
   .main__filter__information {
     flex-wrap: nowrap;
-    gap: var(--spacing-sm);
+    gap: var(--spacing-xs);
   }
 
   .main__filter__information__icon{
     display: flex;
     align-items: center;
     font-size: var(--font-sm);
-    padding: 0px 13px;
-    
   }
 
   .main__grid {
