@@ -147,7 +147,6 @@ body {
   border-radius: var(--spacing-xl);
   cursor: pointer;
   font-weight: 700;
-  font-size: var(--font-subtitle);
   display: flex;
   gap: var(--spacing-sm);
   align-items: center;
@@ -410,12 +409,20 @@ body {
 
 @media only screen and (max-width: 1024px) {
 
+  .header__link{
+    text-align: center;
+  }
+
   .main__filter{
     flex-wrap: wrap;
   }
 
   .main__filter__title {
     width: 100%;
+  }
+
+  .main__filter__button {
+    padding: var(--spacing-sm) var(--spacing-md) ;
   }
 
   .main__grid {
@@ -527,6 +534,7 @@ body {
   .main__filter__button {
     width: calc(100%/2 - var(--spacing-xs));
     font-size: var(--font-sm);
+    padding: var(--spacing-sm);
   }
 
   .main__filter__button__icon {
