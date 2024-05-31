@@ -24,7 +24,9 @@
 }
 
 body {
-  margin: 0 50px;
+  padding: 0 50px;
+  margin: 0 auto;
+  max-width: 1340px;
   font-family: "Raleway", sans-serif;
   font-size: 16px;
 
@@ -181,7 +183,7 @@ body {
 .main__filter__information__icon {
   color: var(--blue);
   font-size: var(--font-sm);
-  padding:7px 10px;
+  padding: 7px 10px;
   border: 2px solid var(--grey);
   border-radius: 100%;
 }
@@ -409,11 +411,11 @@ body {
 
 @media only screen and (max-width: 1024px) {
 
-  .header__link{
+  .header__link {
     text-align: center;
   }
 
-  .main__filter{
+  .main__filter {
     flex-wrap: wrap;
   }
 
@@ -422,7 +424,7 @@ body {
   }
 
   .main__filter__button {
-    padding: var(--spacing-sm) var(--spacing-md) ;
+    padding: var(--spacing-sm) var(--spacing-md);
   }
 
   .main__grid {
@@ -440,7 +442,7 @@ body {
     width: 100%;
   }
 
-  .main__grid__populaire__list__card{
+  .main__grid__populaire__list__card {
     width: calc(100%/3 - var(--spacing-md));
   }
 
@@ -449,7 +451,7 @@ body {
     width: 100px;
   }
 
-  .main__grid__populaire__list__card__header{
+  .main__grid__populaire__list__card__header {
     padding: var(--spacing-md) var(--spacing-xs);
   }
 
@@ -472,7 +474,9 @@ body {
 @media only screen and (max-width: 768px) {
 
   body {
-    margin: 0;
+    padding: 0;
+    margin: 0 ;
+    max-width: none;
   }
 
   .header {
@@ -546,7 +550,7 @@ body {
     gap: var(--spacing-xs);
   }
 
-  .main__filter__information__icon{
+  .main__filter__information__icon {
     display: flex;
     align-items: center;
     font-size: var(--font-sm);
@@ -628,9 +632,11 @@ body {
     gap: var(--spacing-md);
     width: 100%;
   }
-  
 
-  .footer__hebergements__title, .footer__a-propos__title, .footer__assistance__title {
+
+  .footer__hebergements__title,
+  .footer__a-propos__title,
+  .footer__assistance__title {
     font-size: var(--font-subtitle);
   }
 }
